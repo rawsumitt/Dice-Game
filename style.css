@@ -39,7 +39,7 @@ button:hover{
     cursor: pointer;
     background-color: rgba(236, 20, 20, 0.727);
 }
-@media (max-width: 425px)
+@media (max-width: 476px)
 {
     img{
         width: 17rem;
@@ -47,6 +47,26 @@ button:hover{
     }
     #heading{
         font-size: 28px;
+        border-radius: 3rem;
+        padding: 0rem 0.5rem;
+        background-color: #34778a;
+        font-style: italic;
+        margin: 3rem;
+    }
+    body{
+        height: 100vh;
+        background-image: url(diceFaces/dice-bg.jpg);
+        background-size: cover;
+    }
+}
+@media (max-width: 375px)
+{
+    img{
+        width: 13rem;
+        height: 35vh;
+    }
+    #heading{
+        font-size: 17px;
         border-radius: 3rem;
         padding: 0rem 0.5rem;
         background-color: #34778a;
