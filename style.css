@@ -43,7 +43,7 @@ button:hover{
 {
     img{
         width: 17rem;
-        height: 40vh;
+        height: 30vh;
     }
     #heading{
         font-size: 28px;
@@ -54,6 +54,7 @@ button:hover{
         margin: 3rem;
     }
     body{
+        margin-top: 9.5rem;
         height: 100vh;
         background-image: url(diceFaces/dice-bg.jpg);
         background-size: cover;
@@ -63,10 +64,10 @@ button:hover{
 {
     img{
         width: 13rem;
-        height: 35vh;
+        height: 25vh;
     }
     #heading{
-        font-size: 17px;
+        font-size: 22px;
         border-radius: 3rem;
         padding: 0rem 0.5rem;
         background-color: #34778a;
@@ -74,8 +75,15 @@ button:hover{
         margin: 3rem;
     }
     body{
-        height: 100vh;
+        margin-top: 10.5rem;
         background-image: url(diceFaces/dice-bg.jpg);
         background-size: cover;
+    }
+    .container{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
     }
 }
